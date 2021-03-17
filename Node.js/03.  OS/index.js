@@ -1,0 +1,13 @@
+const os = require('os')
+
+console.log("Your system's architecture: " + os.arch() + " ")
+console.log("Your system's platform: " + os.platform() + " ")
+console.log("Your system's version: " + os.version() + " ")
+console.log("Your system's type: " + os.type() + " ")
+console.log("Your system's uptime: " + os.uptime() + " ")
+console.log("Your system's freeMemory: " + os.freemem() + "bytes ")
+console.log("Your system's freeMemory in GBs: " + `${os.freemem() / 1024 / 1024 / 1024}` + "GBs ")
+console.log("Your system's totalMemory: " + `${os.totalmem() / 1024 / 1024 / 1024}` + "GBs ")
+console.log("Your system's hostName: " + os.hostname() + " ")
+console.log("Your system's Temporary Dierectory: " + os.tmpdir() + " ")
+console.log("Your system's User Info: " + os.userInfo() + " ")
